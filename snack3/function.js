@@ -1,13 +1,15 @@
 
 /**
- * Conta il numero di elementi presenti in un array.
- * @param {Array} array - Un array di elementi.
- * @returns {number} Il numero di elementi presenti nell'array.
+ * 4. scrivere una funzione rimuoviDallaCoda() che, dato un array A in input, restituisca un nuovo array B, con tutti gli elementi dell'array A, tranne l'ultimo
+ * @param {Array} array
+ * @returns {number} 
  */
-function contaElementi(array) {
-    let count = 0;
-    for (let i = 0; i < array.length; i++) {
-        count++;
+function rimuoviDallacoda(array, arrayVuoto)
+ {
+    for (let i = 0; i < array.length -1; i++) {
+            arrayVuoto.push(array[i])
+
+        
     }
-    return count;
+    result = arrayVuoto
 }
